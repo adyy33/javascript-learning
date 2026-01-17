@@ -1,0 +1,15 @@
+let name=" Aditya Dapale ";
+console.log(name.length);  
+console.log(name.toUpperCase());  
+console.log(name.toLowerCase());
+console.log(name.trim());  
+console.log(name.includes("Adi"));
+console.log(name.slice(1,7)); 
+console.log(name.replace("Adi","adi")); 
+console.log(name.indexOf("a")); 
+console.log(name.substring(1,7));
+console.log(name.concat(" is a developer.")); 
+console.log(name.repeat(3)); 
+console.log(name.charAt(5)); 
+console.log(name.startsWith(" Adi")); 
+console.log(name.endsWith("Dapale "));
