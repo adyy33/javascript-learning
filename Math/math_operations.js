@@ -1,0 +1,13 @@
+let a=4.4;
+console.log(Math.round(a));
+console.log(Math.ceil(a));
+console.log(Math.floor(a));
+console.log(Math.round(Math.random()*1000)+1000);
+console.log(Math.max(121.0,121.1,66,99,100.5,34));
+console.log(Math.min(121.0,121.1,66,99,100.5,34));
+console.log(Math.abs(-100));
+console.log(Math.pow(5,2));
+console.log(Math.round(Math.sqrt(24)));
+console.log(Math.sqrt(24).toFixed(2));
+console.log(Math.log(10));
+console.log(Math.PI.toFixed(2));
