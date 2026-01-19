@@ -1,0 +1,18 @@
+let arr=[10,20,30,"aditya",true];
+console.log(arr.length);
+arr.push(false);   
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.unshift(5);
+console.log(arr);
+arr.shift();
+console.log(arr);
+console.log(arr.includes(20));
+console.log(arr.indexOf("aditya"));
+console.log(arr.join("-"));
+console.log(arr.reverse());
+let newArr=arr.slice(0,arr.length);
+console.log(newArr);
+arr.splice  (2,2,"hello","world");
+console.log(arr);
